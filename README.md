@@ -50,6 +50,6 @@ classify and segment credit card customers based on their transaction behaviours
 1. **Programming Language** 
   - Python
 2. **Libraries**
-  - pandas, numpy, scikit-learn, matplotlib, StandardScaler, PCA, silhouette_score, KMeans, AgglomerativeClustering, GaussianMixture, euclidean_distances, silhouette_score,calinski_harabasz_score,davies_bouldin_score, train_test_split, GridSearchCV, RandomForestRegressor, LassoCV, mean_squared_error
+  - pandas, numpy, scikit-learn, matplotlib
 3. **Visualization Tools**
   - plotly, seaborn
