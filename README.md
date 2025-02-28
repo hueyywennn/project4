@@ -27,29 +27,41 @@ Conducted a Credit Card Customer Segmentation data analysis to identify distinct
 |`fullPymtPCT`          | Percentage of full payment paid by user                                                                                          |
 |`tenure`               | Tenure of credit card service for user                                                                                           |
 
-### Features
-1. **Data Cleaning**
-  -	Feature renamed
-  -	Handle missing values: cold deck imputation – mean
-  -	Handle outliers: interquartile range, z-score
-2. **Exploratory Data Analysis (EDA)**
-  -	Statistical Summaries: mean, median, variance, and standard deviation
-  -	Correlation Analysis: heatmap correlations
-  -	Distribution Plots: histograms, scatter plots,
-  -	Outlier Detection: boxplot
-3. **Machine Learning Models**
-  -	Data Normalization: Standard Scaler
-  -	Clustering Algorithms: k-means, Agglomerative, Gaussian Mixture
-  -	Dimensionality Reduction: Principal Component Analysis
-  -	Segmentation Model Evaluation: elbow method, silhouette score, Davies-Bouldin index, Calinski Harabasz Method
-  -	Predictive Modeling: clustering
-4. **Interactive Visualizations**
-  -	Cluster Visualization: dimensionality reduction with PCA
+## Project Objectives  
+1. **Data Cleaning & Preprocessing**  
+   - Rename inconsistent feature names for clarity  
+   - Handle missing values using **cold deck imputation (mean substitution)**  
+   - Detect and remove outliers using **interquartile range (IQR) and Z-score analysis**  
 
-## Tools used
-1. **Programming Language** 
-  - Python
-2. **Libraries**
-  - pandas, numpy, scikit-learn, matplotlib
-3. **Visualization Tools**
-  - plotly, seaborn
+2. **Exploratory Data Analysis (EDA)**  
+   - Compute key statistical summaries: mean, median, variance, and standard deviation  
+   - Perform correlation analysis using **heatmaps**  
+   - Visualize distributions with **histograms and scatter plots**  
+   - Detect outliers using **boxplots**  
+
+3. **Machine Learning Models for Customer Segmentation**  
+   - **Data Normalization**: Apply **Standard Scaler** to standardize feature distributions  
+   - **Clustering Algorithms**: Implement and compare  
+     - **K-means**  
+     - **Agglomerative Clustering**  
+     - **Gaussian Mixture Model (GMM)**  
+   - **Dimensionality Reduction**: Use **Principal Component Analysis (PCA)** for feature compression  
+   - **Cluster Validation & Model Evaluation**:  
+     - **Elbow Method**: Determine optimal cluster count  
+     - **Silhouette Score**: Evaluate cluster compactness  
+     - **Davies-Bouldin Index** & **Calinski-Harabasz Method**: Assess clustering performance  
+   - **Predictive Modeling**: Assign new customers to clusters based on trained segmentation model  
+
+## Technologies Used  
+- **Programming Language**: Python  
+- **Libraries**: pandas, numpy, scikit-learn, matplotlib  
+- **Data Visualization Tools**: seaborn, plotly  
+
+## Project Workflow  
+1. **Data Collection**: Import and inspect datasets  
+2. **Data Cleaning & Preprocessing**: Handle missing values, normalize data, and remove outliers  
+3. **Exploratory Data Analysis (EDA)**: Visualize distributions, correlations, and patterns  
+4. **Feature Engineering**: Transform variables for better clustering  
+5. **Model Training**: Implement and compare different clustering algorithms  
+6. **Model Evaluation**: Analyze clustering performance using multiple validation metrics  
+7. **Results Interpretation**: Identify customer segments and derive actionable insights  
