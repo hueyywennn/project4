@@ -5,7 +5,7 @@
 This project focuses on segmenting credit card customers based on their spending behavior and demographics. Using clustering techniques such as K-means, Agglomerative Clustering, and Gaussian Mixture Models, the analysis aims to uncover distinct customer groups. The insights generated help support targeted marketing strategies and personalized customer experiences.
 
 ### Dataset 
-(https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
+**Dataset Source:** [Credit Card Dataset](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
 | Name            | Description                                                                                                                      |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------|
 |`custID`               |Identification of Credit Card holder (Categorical)                                                                                |
