@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Project Overview
-Conducted a Credit Card Customer Segmentation data analysis to identify distinct customer groups based on spending behaviour and demographics. Utilized clustering techniques, such as K-means, to analyze transaction data and uncover patterns. Generated insights to support targeted marketing strategies and personalized customer experiences.
+This project focuses on segmenting credit card customers based on their spending behavior and demographics. Using clustering techniques such as K-means, Agglomerative Clustering, and Gaussian Mixture Models, the analysis aims to uncover distinct customer groups. The insights generated help support targeted marketing strategies and personalized customer experiences.
 
 ### Dataset 
 (https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
